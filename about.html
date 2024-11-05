@@ -113,13 +113,13 @@
             <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
           </div> -->
         </form>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
+		<div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
 				<li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
-	        	<li class="nav-item"><a href="#about" class="nav-link">Preguntas Frecuentes</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link">Preguntas Frecuentes</a></li>
 	        	<!-- <li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li> -->
 	        	<li class="nav-item"><a href="blog-single.html" class="nav-link">Blog</a></li>
-	        	<!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
+	        	<li class="nav-item"><a href="AvisodePrivacidad.html" class="nav-link">Aviso de Privacidad</a></li>
 				<li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
 				<img src="images/icono/ImpulsoLogo.png" alt="" style="width: 100px;">
 	        </ul>
@@ -274,90 +274,141 @@
 		          	<span class="subheading">Bienvenido a Grupo Impulso</span>
 		            <h2 class="mb-4">Preguntas Frecuentes</h2>
 		            <p>En Grupo Impulso, sabemos que el proceso de gestionar trámites de Afore puede generar muchas dudas. Para ayudarte, hemos recopilado las preguntas más frecuentes de nuestros clientes, con respuestas claras y directas que te facilitarán entender todo lo relacionado con tus derechos como derechohabiente y el manejo de tu cuenta individual de Afore. Nuestro objetivo es brindarte toda la información que necesitas para que tomes las mejores decisiones sobre tu futuro financiero, siempre con la confianza y transparencia que nos caracteriza.</p>
-		            <div class="tabulation-2 mt-4">
-						<ul class="nav nav-pills nav-fill d-md-flex d-block">
-							<li class="nav-item mb-md-0 mb-2">
-								<a class="nav-link active py-2" data-toggle="tab" href="#home1">¿Qué es una Afore?</a>
-							</li>
-							<li class="nav-item px-lg-2 mb-md-0 mb-2">
-								<a class="nav-link py-2" data-toggle="tab" href="#home2">¿Qué es una subcuenta de retiro, cesantía y vejez (RCV)?</a>
+		            <div class="tabulation-2 mt-4" id="accordion">
+						<!-- Acordeón para móviles -->
+						<ul class="nav flex-column d-md-none d-block">
+							<li class="nav-item">
+								<a class="nav-link py-2" data-toggle="collapse" href="#home1" aria-expanded="false" aria-controls="home1">¿Qué es una Afore?</a>
+								<div class="collapse" id="home1" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">
+										Un Afore (Administradora de Fondos para el Retiro) es una institución financiera en México que administra y resguarda los ahorros de los trabajadores para su jubilación. Su principal objetivo es hacer crecer estos fondos a través de inversiones, asegurando que las personas cuenten con un ingreso cuando se retiren del mercado laboral.
+									</p>
+								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home3">¿Cómo puedo retirar por desempleo?</a>
+								<a class="nav-link py-2" data-toggle="collapse" href="#home2" aria-expanded="false" aria-controls="home2">¿Qué es una subcuenta de retiro, cesantía y vejez (RCV)?</a>
+								<div class="collapse" id="home2" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">La subcuenta RCV es donde se registran tus aportaciones y rendimientos para tu retiro, cesantía en edad avanzada o vejez y que en su momento servirán para calcular tu pensión.</p>
+								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home4">¿Qué son las aportaciones voluntarias?</a>
+								<a class="nav-link py-2" data-toggle="collapse" href="#home3" aria-expanded="false" aria-controls="home3">¿Cómo puedo retirar por desempleo?</a>
+								<div class="collapse" id="home3" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">Cuando un trabajador se encuentra sin relación laboral vigente, siempre y cuando hayan pasado por lo menos 90 días desde su último empleo.</p>
+								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home5">¿Cómo puedo cambiar de Afore?</a>
+								<a class="nav-link py-2" data-toggle="collapse" href="#home4" aria-expanded="false" aria-controls="home4">¿Qué son las aportaciones voluntarias?</a>
+								<div class="collapse" id="home4" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">Las aportaciones voluntarias son depósitos adicionales que puedes realizar a tu cuenta de Afore para incrementar tus ahorros para el retiro. Estos depósitos pueden realizarse en cualquier momento y permiten aumentar el monto disponible al momento de la jubilación.</p>
+								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home6">¿Qué sucede con mi Afore si cambio de trabajo?</a>
+								<a class="nav-link py-2" data-toggle="collapse" href="#home5" aria-expanded="false" aria-controls="home5">¿Cómo puedo cambiar de Afore?</a>
+								<div class="collapse" id="home5" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">Para cambiar de Afore, debes verificar que hayan pasado al menos 12 meses desde tu último cambio. Posteriormente, debes solicitar el cambio a través de la Afore de tu preferencia, que gestionará el proceso de transferencia de tus fondos.</p>
+								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home7">¿Cómo consultar mi estado de cuenta de Afore?</a>
+								<a class="nav-link py-2" data-toggle="collapse" href="#home6" aria-expanded="false" aria-controls="home6">¿Qué sucede con mi Afore si cambio de trabajo?</a>
+								<div class="collapse" id="home6" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">Si cambias de trabajo, tu Afore sigue administrando tu cuenta. Las aportaciones continuarán acumulándose automáticamente, siempre y cuando tu nuevo empleador realice las contribuciones correspondientes.</p>
+								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home8">¿Qué pasa con mi Afore en caso de fallecimiento?</a>
+								<a class="nav-link py-2" data-toggle="collapse" href="#home7" aria-expanded="false" aria-controls="home7">¿Cómo consultar mi estado de cuenta de Afore?</a>
+								<div class="collapse" id="home7" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">Puedes consultar tu estado de cuenta de Afore a través de la plataforma digital de tu Afore o solicitando un estado de cuenta impreso, el cual se envía cada cuatro meses a tu domicilio.</p>
+								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home9">¿Cuáles son las comisiones que cobra una Afore?</a>
+								<a class="nav-link py-2" data-toggle="collapse" href="#home8" aria-expanded="false" aria-controls="home8">¿Qué pasa con mi Afore en caso de fallecimiento?</a>
+								<div class="collapse" id="home8" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">En caso de fallecimiento, los beneficiarios designados por el titular de la cuenta pueden reclamar los fondos de la Afore. Es importante mantener actualizados los datos de los beneficiarios para evitar inconvenientes.</p>
+								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home10">¿Cuándo puedo retirar mis ahorros de la Afore?</a>
+								<a class="nav-link py-2" data-toggle="collapse" href="#home9" aria-expanded="false" aria-controls="home9">¿Cuáles son las comisiones que cobra una Afore?</a>
+								<div class="collapse" id="home9" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">Las Afores cobran comisiones por la administración de los fondos de los trabajadores, las cuales se aplican sobre el saldo de la cuenta. Es importante comparar las comisiones de diferentes Afores para elegir la opción que ofrezca mejor rendimiento neto.</p>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link py-2" data-toggle="collapse" href="#home10" aria-expanded="false" aria-controls="home10">¿Cuándo puedo retirar mis ahorros de la Afore?</a>
+								<div class="collapse" id="home10" data-parent="#accordion">
+									<p class="p-3 bg-light rounded">Puedes retirar tus ahorros de la Afore al cumplir la edad de jubilación establecida por la ley, en casos de pensión por invalidez, o cuando no tengas una relación laboral activa durante un periodo determinado. También existen opciones de retiro parcial por desempleo o matrimonio, aunque pueden afectar el saldo de tu cuenta para la jubilación.</p>
+								</div>
 							</li>
 						</ul>
-						<div class="tab-content bg-light rounded mt-2">
-							<div class="tab-pane container p-0 active" id="home1">
-								<p>
-									Un Afore (Administradora de Fondos para el Retiro) es una institución financiera en México que administra y resguarda los ahorros de los trabajadores para su jubilación. Su principal objetivo es hacer crecer estos fondos a través de inversiones, asegurando que las personas cuenten con un ingreso cuando se retiren del mercado laboral.
-								</p>
+					
+						<!-- Pestañas originales para dispositivos más grandes -->
+						<ul class="nav nav-pills nav-fill d-none d-md-flex">
+							<li class="nav-item mb-md-0 mb-2">
+								<a class="nav-link active py-2" data-toggle="tab" href="#tab-home1">¿Qué es una Afore?</a>
+							</li>
+							<li class="nav-item px-lg-2 mb-md-0 mb-2">
+								<a class="nav-link py-2" data-toggle="tab" href="#tab-home2">¿Qué es una subcuenta de retiro, cesantía y vejez (RCV)?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#tab-home3">¿Cómo puedo retirar por desempleo?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#tab-home4">¿Qué son las aportaciones voluntarias?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#tab-home5">¿Cómo puedo cambiar de Afore?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#tab-home6">¿Qué sucede con mi Afore si cambio de trabajo?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#tab-home7">¿Cómo consultar mi estado de cuenta de Afore?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#tab-home8">¿Qué pasa con mi Afore en caso de fallecimiento?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#tab-home9">¿Cuáles son las comisiones que cobra una Afore?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#tab-home10">¿Cuándo puedo retirar mis ahorros de la Afore?</a>
+							</li>
+						</ul>
+					
+						<div class="tab-content bg-light rounded mt-2 d-none d-md-block">
+							<div class="tab-pane container p-0 active" id="tab-home1">
+								<p>Un Afore (Administradora de Fondos para el Retiro) es una institución financiera en México que administra y resguarda los ahorros de los trabajadores para su jubilación. Su principal objetivo es hacer crecer estos fondos a través de inversiones, asegurando que las personas cuenten con un ingreso cuando se retiren del mercado laboral.</p>
 							</div>
-							<div class="tab-pane container p-0 fade" id="home2">
+							<div class="tab-pane container p-0 fade" id="tab-home2">
 								<p>La subcuenta RCV es donde se registran tus aportaciones y rendimientos para tu retiro, cesantía en edad avanzada o vejez y que en su momento servirán para calcular tu pensión.</p>
 							</div>
-							<div class="tab-pane container p-0 fade" id="home3">
-								<p>
-									Cuando un trabajador se encuentra sin relación laboral vigente, siempre y cuando hayan pasado por lo menos 90 días desde su último empleo.
-								</p>
+							<div class="tab-pane container p-0 fade" id="tab-home3">
+								<p>Cuando un trabajador se encuentra sin relación laboral vigente, siempre y cuando hayan pasado por lo menos 90 días desde su último empleo.</p>
 							</div>
-							<div class="tab-pane container p-0 fade" id="home4">
-								<p>
-									Las aportaciones voluntarias son depósitos adicionales que puedes realizar a tu cuenta de Afore para incrementar tus ahorros para el retiro. Estos depósitos pueden realizarse en cualquier momento y permiten aumentar el monto disponible al momento de la jubilación.
-								</p>
+							<div class="tab-pane container p-0 fade" id="tab-home4">
+								<p>Las aportaciones voluntarias son depósitos adicionales que puedes realizar a tu cuenta de Afore para incrementar tus ahorros para el retiro. Estos depósitos pueden realizarse en cualquier momento y permiten aumentar el monto disponible al momento de la jubilación.</p>
 							</div>
-							<div class="tab-pane container p-0 fade" id="home5">
-								<p>
-									Para cambiar de Afore, debes verificar que hayan pasado al menos 12 meses desde tu último cambio. Posteriormente, debes solicitar el cambio a través de la Afore de tu preferencia, que gestionará el proceso de transferencia de tus fondos.
-								</p>
+							<div class="tab-pane container p-0 fade" id="tab-home5">
+								<p>Para cambiar de Afore, debes verificar que hayan pasado al menos 12 meses desde tu último cambio. Posteriormente, debes solicitar el cambio a través de la Afore de tu preferencia, que gestionará el proceso de transferencia de tus fondos.</p>
 							</div>
-							<div class="tab-pane container p-0 fade" id="home6">
-								<p>
-									Si cambias de trabajo, tu Afore sigue administrando tu cuenta. Las aportaciones continuarán acumulándose automáticamente, siempre y cuando tu nuevo empleador realice las contribuciones correspondientes.
-								</p>
+							<div class="tab-pane container p-0 fade" id="tab-home6">
+								<p>Si cambias de trabajo, tu Afore sigue administrando tu cuenta. Las aportaciones continuarán acumulándose automáticamente, siempre y cuando tu nuevo empleador realice las contribuciones correspondientes.</p>
 							</div>
-							<div class="tab-pane container p-0 fade" id="home7">
-								<p>
-									Puedes consultar tu estado de cuenta de Afore a través de la plataforma digital de tu Afore o solicitando un estado de cuenta impreso, el cual se envía cada cuatro meses a tu domicilio.
-								</p>
+							<div class="tab-pane container p-0 fade" id="tab-home7">
+								<p>Puedes consultar tu estado de cuenta de Afore a través de la plataforma digital de tu Afore o solicitando un estado de cuenta impreso, el cual se envía cada cuatro meses a tu domicilio.</p>
 							</div>
-							<div class="tab-pane container p-0 fade" id="home8">
-								<p>
-									En caso de fallecimiento, los beneficiarios designados por el titular de la cuenta pueden reclamar los fondos de la Afore. Es importante mantener actualizados los datos de los beneficiarios para evitar inconvenientes.
-								</p>
+							<div class="tab-pane container p-0 fade" id="tab-home8">
+								<p>En caso de fallecimiento, los beneficiarios designados por el titular de la cuenta pueden reclamar los fondos de la Afore. Es importante mantener actualizados los datos de los beneficiarios para evitar inconvenientes.</p>
 							</div>
-							<div class="tab-pane container p-0 fade" id="home9">
-								<p>
-									Las Afores cobran comisiones por la administración de los fondos de los trabajadores, las cuales se aplican sobre el saldo de la cuenta. Es importante comparar las comisiones de diferentes Afores para elegir la opción que ofrezca mejor rendimiento neto.
-								</p>
+							<div class="tab-pane container p-0 fade" id="tab-home9">
+								<p>Las Afores cobran comisiones por la administración de los fondos de los trabajadores, las cuales se aplican sobre el saldo de la cuenta. Es importante comparar las comisiones de diferentes Afores para elegir la opción que ofrezca mejor rendimiento neto.</p>
 							</div>
-							<div class="tab-pane container p-0 fade" id="home10">
-								<p>
-									Puedes retirar tus ahorros de la Afore al cumplir la edad de jubilación establecida por la ley, en casos de pensión por invalidez, o cuando no tengas una relación laboral activa durante un periodo determinado. También existen opciones de retiro parcial por desempleo o matrimonio, aunque pueden afectar el saldo de tu cuenta para la jubilación.
-								</p>
+							<div class="tab-pane container p-0 fade" id="tab-home10">
+								<p>Puedes retirar tus ahorros de la Afore al cumplir la edad de jubilación establecida por la ley, en casos de pensión por invalidez, o cuando no tengas una relación laboral activa durante un periodo determinado. También existen opciones de retiro parcial por desempleo o matrimonio, aunque pueden afectar el saldo de tu cuenta para la jubilación.</p>
 							</div>
 						</div>
 					</div>
+					
 					
 					
 								
@@ -377,114 +428,13 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-          	<span class="subheading">Testimonios</span>
-            <h2 class="mb-4">Clientes Satisfechos</h2>
+          	<span class="subheading" style="font-size: 30px;">¿Tienes más dudas? Conoce nuestros artículos</span>
+			<a href="blog.html">
+				<h2 class="mb-4">Blog</h2>
+			</a>
           </div>
         </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Sus asesores me ayudaron a obtener mi crédito de Infonavit para remodelar vivienda, les agradezco. </p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/señor1.png)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Simón Fernandez</p>
-		                    <!-- <span class="position">Marketing Manager</span> -->
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Logré obtener mi pensión gracias a está consultoría, y el servicio fue muy bueno.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/3.png)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Marco Aurelio Diosdado</p>
-		                    <!-- <span class="position">Marketing Manager</span> -->
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Sus asesores son muy buenos, gracias a está consultoría pude hacer mi primer retiro parcial de mi Afore.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/4.png)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Luz García</p>
-		                    <!-- <span class="position">Marketing Manager</span> -->
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Me ayudaron con mi trámite logre mi trámite de retiro parcial. Gracias a ello, pude disfrutar con mi familia</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/5.png)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Maria Guadalupe</p>
-		                    <!-- <span class="position">Marketing Manager</span> -->
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-
-			  <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Me toco un asesor que no me explico bien el tramite y el pago. Espero que mejoren el servicio</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/Laura.avif)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Laura Gonzalez</p>
-		                    <!-- <span class="position">Marketing Manager</span> -->
-		                  </div>
-	                  </div>
-                  </div>
-
-				  
-
-                </div>
-              </div>
-
-
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Solicite mi trámite de pensión, es una excelente consultoría son muy profesionales</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/Cristina.png)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Cristina Perez</p>
-		                    <!-- <span class="position">Marketing Manager</span> -->
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-
-			  
-
-
-            </div>
+        
           </div>
         </div>
       </div>
