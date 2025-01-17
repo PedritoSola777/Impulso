@@ -1,948 +1,943 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Terra Constructores</title>
-<!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">   
-<!--Color Switcher Mockup-->
-<link href="css/color-switcher-design.css" rel="stylesheet">
-<!--Color Themes-->
-<link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+  <head>
+    <title>Grupo Impulso</title>
+	<link rel="icon" href="images/icono/Favicon.png" type="image/png">
 
-<!-- <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"> -->
-<link rel="icon" href="images/icons/favTerra.png" type="image/x-icon">
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-<meta name="description" content="Expertos en trámites de afore en México. Facilitamos la gestión de tu cuenta individual de afore, asegurando un proceso sencillo y accesible para maximizar los beneficios de ser derechohabiente. ¡Confía en nosotros para cuidar de tu futuro!">
-<meta property="og:title" content="Tu Aliado Experto en Trámites de afore">
-<meta property="og:description" content="Expertos en trámites de afore en México. Facilitamos la gestión de tu cuenta individual de afore, asegurando un proceso sencillo y accesible para maximizar los beneficios de ser derechohabiente. ¡Confía en nosotros para cuidar de tu futuro!">
-<meta property="og:image" content="https://drive.google.com/file/d/1BQknFERTjUk-wgPp1B8xW15jn416_ajS/view?usp=drivesdk">
-<meta property="og:url" content="https://terra-test.netlify.app/">
-<meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+ 
+	<style>
+		/* CSS Personalizado */
+        .icon, .media-body {
+            margin: 0 auto;
+            text-align: center; /* Asegura que el texto e ícono estén centrados */
+        }
 
+        /* Estilos específicos para la vista de escritorio */
+        @media (min-width: 768px) {
+            .col-md-3 {
+                width: 22%; /* Ajuste del ancho para que se alinee correctamente en la vista de escritorio */
+                margin-bottom: 30px;
+            }
+            .icon {
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0;
+            }
+            .media-body {
+                text-align: center;
+                padding: 20px 0;
+            }
+            .heading {
+                margin-top: 10px;
+            }
+        }
 
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+        /* Estilos específicos para la vista móvil */
+        @media (max-width: 767px) {
+            .col-md-3 {
+                width: 100%; /* Cada columna ocupa el 100% del ancho en móvil */
+                margin-bottom: 20px;
+            }
+            .icon {
+                margin-bottom: 10px; /* Espaciado entre ícono y texto */
+                padding: 15px 0;
+            }
+            .media-body {
+                text-align: center;
+                padding: 10px 0;
+            }
+            .heading {
+                margin-top: 15px;
+            }
+        }
+
+        /* Asegura que todos los contenedores se comporten correctamente */
+        .services {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Alineación vertical */
+            padding: 15px;
+        }
+	</style>
+
 </head>
+  <body>
 
-<body>
+    <div class="container pt-5">
+			<div class="row justify-content-between">
+				<div class="col">
+					<a class="navbar-brand" href="index.html">Grupo<span> impulso.</span> </a>
+				</div>
+				<!-- <div class="col d-flex justify-content-end">
+					<div class="social-media">
+		    		<p class="mb-0 d-flex">
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+		    		</p>
+	        </div>
+				</div> -->
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	    
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="fa fa-bars"></span> Menu
+	      </button>
+				<form action="#" class="searchform order-lg-last">
+          <!-- <div class="form-group d-flex">
+            <input type="text" class="form-control pl-3" placeholder="Search">
+            <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+          </div> -->
+        </form>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link">Preguntas Frecuentes</a></li>
+	        	<!-- <li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li> -->
+	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	        	<li class="nav-item"><a href="AvisodePrivacidad.html" class="nav-link">Aviso de Privacidad</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+				<img src="images/icono/ImpulsoLogo.png" alt="" style="width: 100px;">
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    <div class="hero-wrap">
+	    <div class="home-slider owl-carousel">
+	      <div class="slider-item" style="background-image:url(images/Banner/B1Update.jpg);">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row no-gutters slider-text align-items-center justify-content-center">
+		          <div class="col-md-12 ftco-animate">
+		          	<div class="text w-100 text-center">
+		          		<h2>Estamos aquí para ayudarte</h2>
+			            <h1 class="mb-3">Construimos tu hogar, creamos tus sueños</h1>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+	      </div>
 
-<div class="page-wrapper">
-    <!-- Preloader -->
-    <div class="preloader"></div>
-    
-    <!-- Main Header-->
-    <header class="main-header header-style-one">
-        <div class="auto-container">
-            <div class="main-box clearfix">
-                <div class="logo-box">
-                    <div class="logo"><a href="index.html"><img src="images/icons/logoT.png" alt="" title="" style="width: 200px;"></a></div>
-                </div>
+	      <div class="slider-item" style="background-image:url(images/Banner/B3update.jpg);">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row no-gutters slider-text align-items-center justify-content-center">
+		          <div class="col-md-12 ftco-animate">
+		          	<div class="text w-100 text-center">
+		          		<h2>Protegiendo tu pensión</h2>
+			            <h1 class="mb-3">Construyendo tu futuro</h1>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+	      </div>
 
-                <div class="nav-outer clearfix">
-                    <!-- Main Menu -->
-                    <nav class="main-menu navbar-expand-md ">
-                        <div class="navbar-header">
-                            <!-- Toggle Button -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="icon flaticon-menu"></span>
-                            </button>
-                        </div>
-                        
-                        <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
-                            <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="index.html">Inicio</a>
-                                    </li>
-                                    <!-- <li class="dropdown"><a href="#">About</a>
-                                        <ul>
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="faq.html">FAQ's</a></li>
-                                            <li><a href="team.html">Our Team</a></li>
-                                        </ul>
-                                    </li> -->
-                                    <!-- <li><a href="">Servicios</a></li> -->
-                                    <!-- <li class="dropdown has-mega-menu"><a href="#">Pages</a>
-                                        <div class="mega-menu">
-                                            <div class="mega-menu-bar row clearfix">
-                                                <div class="column col-lg-3 col-md-3 col-sm-12">
-                                                    <h3>About</h3>
-                                                    <ul>
-                                                        <li><a href="#">About Us</a></li>
-                                                        <li><a href="team.html">Our Team</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="column col-lg-3 col-md-3 col-sm-12">
-                                                    <h3>Services</h3>
-                                                    <ul>
-                                                        <li><a href="services.html">All Services</a></li>
-                                                        <li><a href="faq.html">FAQ's</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="column col-lg-3 col-md-3 col-sm-12">
-                                                    <h3>portfolio</h3>
-                                                    <ul>
-                                                        <li><a href="portfolio.html">portfolio</a></li>
-                                                        <li><a href="project-detail.html">portfolio Details</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="column col-lg-3 col-md-3 col-sm-12">
-                                                    <h3>Blog</h3>
-                                                    <ul>
-                                                        <li><a href="blog.html">Blog Classic</a></li>
-                                                        <li><a href="blog-detail.html">Blog Details</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li> -->
-                                    <!-- <li class="dropdown"><a href="#">Portfolio</a>
-                                        <ul>
-                                            <li><a href="portfolio.html">portfolio</a></li>
-                                            <li><a href="project-detail.html">portfolio Details</a></li>
-                                        </ul>
-                                    </li> -->
-                                    <li><a href="blog.html">Blog</a>
-                                        
-                                    </li>
-                                    <li><a href="contact.html">Contacto</a></li>
+	      <div class="slider-item" style="background-image:url(images/Banner/retiro.jpg);">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row no-gutters slider-text align-items-center justify-content-center">
+		          <div class="col-md-12 ftco-animate">
+		          	<div class="text w-100 text-center">
+		          		<h2>Construimos tu hogar</h2>
+			            <h1 class="mb-3">Cuidamos tu retiro</h1>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
 
-                                    <li><a href="faq.html">Preguntas frecuentes</a></li>
-
-
-                                    <!-- <li><a href="#">Aviso de Privacidad</a></li> -->
-
-
-
-                                </ul>
-                        </div>
-                    </nav><!-- Main Menu End-->                        
-                    <!-- Main Menu End-->
-                    <div class="outer-box clearfix">
-                        <!--Search Box-->
-                        <!-- <div class="header-searchbar">
-                            <i class="fa fa-search"></i>
-                        </div> -->
-                        <div class="wraper_search">
-                            <div class="table">
-                            <div class="table-cell">
-                            <!-- search-layer -->
-                            <div class="search-layer"></div>
-                            <!-- search-layer -->
-                            <!-- search-layer -->
-                            <div class="search-layer"></div>
-                            <!-- search-layer -->
-                            <!-- search-layer -->
-                            <div class="search-layer"></div>
-                            <!-- search-layer -->
-                            <!-- search-close -->
-                            <div class="search-close">
-                            <span class="search-close-line"></span>
-                            <span class="search-close-line"></span>
-                            </div>
-                            <!-- search-close -->
-                            <!-- inner_search -->
-                            <div class="inner_search">
-                            <!-- flyout-search-title -->
-                            <div class="flyout-search-title">
-                            <h4>Search</h4>
-                            </div>
-                            <!-- flyout-search-title -->
-                            <!-- search-bar -->
-                            <div class="search-bar">
-                            <form role="search">
-                            <div class="form-row">
-                            <input type="search" placeholder="Type to search..." value="" name="s" required="">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                            </div>
-                            </form>
-                            </div>
-                            <!-- search-bar -->
-                            </div>
-                            <!-- inner_search -->
-                            </div>
-                            </div>
-                        </div>
-                        <!-- <button class="nav-toggler"><span class="fa fa-bars"></span></button> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--End Main Header -->
-    
-    <!--Form Back Drop-->
-    <div class="form-back-drop"></div>
-
-    <!-- Hidden Bar -->
-    
-    <!--End Hidden Bar -->
-
-    <!-- Bnner Section -->
-    <section class="banner-section">
-        <div class="carousel-column">
-            <div class="carousel-outer">
-                <ul class="banner-carousel owl-carousel owl-theme">
-
-                    <!-- Slide Item -->
-                    <li class="slide-item" style="background-image: url(https://img.freepik.com/fotos-premium/vista-angulo-traves-caja-carton-rostros-familiares-felices-osito-peluche-ninos-desembalaje-pertenencias-casa-nueva_308072-1145.jpg?ga=GA1.1.124618113.1725260734&semt=ais_hybrid );">
-                        <div class="auto-container">
-                            <div class="content-box">
-                                <!-- <h1>Luna Residencial</h1> -->
-                                <div class="text">Tu ahorro merece un manejo fácil.</div>
-                                <!-- <div class="ink-box">
-                                    <a href="#" class="theme-btn btn-style-one">Our Service</a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- Slide Item -->
-                    <li class="slide-item" style="background-image: url(https://img.freepik.com/foto-gratis/pareja-mayor-usando-computadora-tomando-notas-mientras-analiza-sus-finanzas-domesticas_637285-3610.jpg?t=st=1735332467~exp=1735336067~hmac=49b86eb16995d0d3923953be8890180a6461500c9d7c42073528e05e7ffdc49e&w=996);">
-                        <div class="auto-container">
-                            <div class="content-box">
-                                <!-- <h1>Luna Residencial</h1> -->
-                                <div class="text">Gestión eficiente, futuro asegurado.<br></div>
-                                <!-- <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one">Our Service</a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </li>
-                    <!-- Slide Item -->
-                    <li class="slide-item" style="background-image: url(https://img.freepik.com/premium-photo/new-modern-kitchen-with-stainless-steel-appliances_493343-33529.jpg)">
-                        <div class="auto-container">
-                            <div class="content-box">
-                                <div class="text">Dale a tu familia el hogar que se merecen </div>
-                                
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-                <ul class="thumbs-carousel owl-carousel owl-theme">
-                    <!-- <li class="thumb-box">
-                        <figure><img src="images/resource/special-thumb-2.jpg" alt=""></figure>
-                    </li> -->
-                    <!-- <li class="thumb-box">
-                        <figure><img src="images/resource/special-thumb-3.jpg" alt=""></figure>
-                    </li> -->
-                    <!-- <li class="thumb-box">
-                        <figure><img src="images/resource/special-thumb-1.jpg" alt=""></figure>
-                    </li> -->
-                </ul>
-            </div>
-        </div>
-
-        <!-- <div class="social-links">
-            <ul class="social-icon-three">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-        </div> -->
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+			<div class="row">
+				<!-- Desempleo -->
+				<div class="col-md-3 col-12 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon">
+							<img src="images/icono/desempleoIcon.png" alt="" style="width: 100px;">
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Retiro parcial por desempleo</h3>
+						</div>
+					</div>
+				</div>
+				<!-- Remodelación de vivienda -->
+				<div class="col-md-3 col-12 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon">
+							<span class="flaticon-skyline"></span>
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Retiro parcial por remodelación de vivienda</h3>
+						</div>
+					</div>
+				</div>
+				<!-- Matrimonio -->
+				<div class="col-md-3 col-12 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon">
+							<img src="images/icono/wife.png" alt="" style="width: 100px;">
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Retiro parcial por matrimonio</h3>
+						</div>
+					</div>
+				</div>
+				<!-- Negativa de pensión -->
+				<div class="col-md-3 col-12 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon">
+							<img src="images/icono/Pension.png" alt="" style="width: 80px;">
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Negativa de pensión</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<div class="row no-gutters">
+				<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
+					<div class="py-3 d-flex">
+						<div class="icon">
+							<span class="flaticon-engineer"></span>
+						</div>
+						<div class="text">
+							<h3>Expertos &amp; Profesionales</h3>
+							<p class="mb-0">Nuestro equipo está compuesto por expertos altamente capacitados que garantizan un servicio profesional y de confianza</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
+					<div class="py-3 d-flex">
+						<div class="icon">
+							<span class="flaticon-engineer-1"></span>
+						</div>
+						<div class="text">
+							<h3>Trabajo de Alta Calidad</h3>
+							<p class="mb-0">Nos enorgullece ofrecer un trabajo de alta calidad, asegurando que cada detalle cumpla con los más altos estándares.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
+					<div class="py-3 d-flex">
+						<div class="icon">
+							<span class="flaticon-engineer-2"></span>
+						</div>
+						<div class="text">
+							<h3>Soporte 24/7</h3>
+							<p class="mb-0">Estamos disponibles para ayudarte en todo momento, brindando soporte continuo para satisfacer tus necesidades.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		  
+		  
     </section>
-    <!-- End Bnner Section -->
-
-    <!-- About Section -->
-    <section class="about-section">
-        <div class="auto-container">
-            <div class="row">
-                <!-- Image Column -->
-                <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner-column">
-                        <div class="image-box">
-                            <figure class="image wow fadeInLeft" data-wow-delay='600ms'><img src="https://img.freepik.com/foto-gratis/familia-joven-sus-hijos-casa-divirtiendose_1303-20999.jpg" alt=""></figure>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Content Column -->
-                <div class="content-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner-column wow fadeInLeft">
-                        <div class="content-box">
-                            <div class="sec-title">
-                                <h2 data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="About Company">Acerca de nosotros</h2>
-                            </div>
-                            <h5>Tu aliado experto en trámites de afore.</h5>
-                            <div class="text">Somos una empresa mexicana con experiencia en la gestión de trámites relacionados con tu afore, comprometidos en apoyar a nuestros clientes para que disfruten plenamente de los beneficios de ser derechohabientes y manejar su cuenta individual de manera sencilla y accesible.</div>
-                            <!-- <div class="link-box"><a href="#" class="theme-btn btn-style-three">Read More</a></div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
+   	
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 d-flex">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(images/pexels-thgusstavo-2102587.jpg);">
+    					<!-- <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+    						<span class="icon-play"></span>
+    					</a> -->
+    				</div>
+    			</div>
+    			<div class="col-md-6 pl-md-5" id="about">
+    				<div class="row justify-content-start py-5">
+		          <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-4">
+		          	<span class="subheading">Bienvenido a Grupo Impulso</span>
+		            <h2 class="mb-4">Acerca de nosotros</h2>
+		            <p>Somos una compañía mexicana con más de 6 años de experiencia en la realización de trámites de Afore, siempre buscando ayudar a nuestros clientes a facilitarles el gozar de todos los derechos de ser derechohabiente y de tener una cuenta individual de Afore.</p>
+		            <div class="tabulation-2 mt-4">
+									<ul class="nav nav-pills nav-fill d-md-flex d-block">
+									  <li class="nav-item mb-md-0 mb-2">
+									    <a class="nav-link active py-2" data-toggle="tab" href="#home1">Nuestra visión</a>
+									  </li>
+									  <li class="nav-item px-lg-2 mb-md-0 mb-2">
+									    <a class="nav-link py-2" data-toggle="tab" href="#home2">Nuestro valor</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home3">Nuestros servicios</a>
+									  </li>
+									</ul>
+									<div class="tab-content bg-light rounded mt-2">
+									  <div class="tab-pane container p-0 active" id="home1">
+									  	<p>
+											Ser la compañía líder en México en la gestión de trámites de Afore, reconocida por nuestra integridad, confiabilidad y compromiso con el bienestar de nuestros clientes, facilitando su acceso a los derechos como derechohabientes y garantizando su tranquilidad financiera a través de un manejo eficiente y transparente de sus cuentas individuales de Afore.
+										</p>
+									  </div>
+									  <div class="tab-pane container p-0 fade" id="home2">
+									  	<p>Nos comprometemos a actuar con honestidad, transparencia y empatía en cada uno de nuestros servicios, poniendo siempre a nuestros clientes en el centro de nuestras acciones. Creemos en la importancia de la confianza y la excelencia, y trabajamos incansablemente para ofrecer soluciones que aseguren el pleno ejercicio de los derechos de nuestros clientes en sus cuentas de Afore.</p>
+									  </div>
+									  <div class="tab-pane container p-0 fade" id="home3">
+									  	<p>Contamos con el mejor asesoramiento para: 
+											<li>Pensiones</li>
+											<li>Vivienda</li>
+											<li>Retiros</li>
+										</p>
+									  </div>
+									</div>
+								</div>
+		          </div>
+		        </div>
+	        </div>
         </div>
-    </section>
-    <!--End About Section -->
-
-    <section class="fluid-section-two">
-        <div class="container-fluid clearfix">
-
-            <!--Image Column-->
-            <div class="image-column wow fadeInLeft animated" style="background-image: url(https://img.freepik.com/fotos-premium/joven-inglesa-aislada-fondo-blanco-sosteniendo-icono-signo-interrogacion-teniendo-dudas_1368-300352.jpg); visibility: visible; animation-name: fadeInLeft;">
-                <figure class="image-box"><img src="images/resource/22.jpg" alt=""></figure>
-            </div>
-
-            <!--Content Column-->
-            <div class="content-column">
-                <div class="inner-column">
-                    <div class="row clearfix">
-                        <!-- Service Block -->
-                        <div class="text-column">
-                            <div class="inner-box">
-                                <div class="text-box">
-                                    <div class="sec-title text-left">
-                                        <h2>¿Por qué elegirnos?</h2>
-                                    </div>
-                                    <div class="text">En nuestra empresa, nos especializamos en brindar asesoría confiable y personalizada para gestionar tus trámites de afore de manera sencilla y eficiente. Contamos con un equipo de expertos comprometidos en ayudarte a maximizar tus beneficios y asegurar tu futuro financiero. Elegirnos significa tener la tranquilidad de contar con el respaldo profesional que necesitas para tomar decisiones informadas. ¡Confía en nosotros, tu bienestar es nuestra prioridad!</div>
-                                    <!-- <div class="text">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</div> -->
-                                </div>
-                                <div class="row clearfix services-box">
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="box-cloumn">
-                                            <div class="icon-box">
-                                                <i class="flaticon-cup"></i>
-                                            </div>
-                                            <h4>Soluciones Galardonadas</h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="box-cloumn">
-                                            <div class="icon-box">
-                                                <i class="flaticon-plan"></i>
-                                            </div>
-                                            <h4>Garantía Exclusiva</h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="box-cloumn">
-                                            <div class="icon-box">
-                                                <i class="flaticon-home"></i>
-                                            </div>
-                                            <h4>Proyectos Modernos de Interiores</h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="box-cloumn">
-                                            <div class="icon-box">
-                                                <i class="flaticon-contract"></i>
-                                            </div>
-                                            <h4>Presupuesto Personalizado y Justo</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    	</div>
     </section>
 
-    <section class="fun-fact-section">
-        <div class="outer-box" style="background-image: url(images/background/fact-1.jpg);">
-            <div class="auto-container">
-                <div class="fact-counter">
-                    <div class="row">
-                        <!--Column-->
-                        <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
-                            <div class="count-box">
-                                <div class="count"><span class="count-text" data-speed="5000" data-stop="93">0</span></div>
-                                <h4 class="counter-title">ASESORES EXPERTOS</h4>
-                            </div>
-                        </div>
-
-                        <!--Column-->
-                        <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                            <div class="count-box">
-                                <div class="count"><span class="count-text" data-speed="5000" data-stop="1231">0</span></div>
-                                <h4 class="counter-title">TRÁMITES REALIZADOS</h4>
-                            </div>
-                        </div>
-
-                        <!--Column-->
-                        <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-                            <div class="count-box">
-                                <div class="count"><span class="count-text" data-speed="5000" data-stop="100%">0</span>+</div>
-                                <h4 class="counter-title">ATENCIÓN PERSONALIZADA</h4>
-                            </div>
-                        </div>
-
-                        <!--Column-->
-                        <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
-                            <div class="count-box">
-                                <div class="count"><span class="count-text" data-speed="5000" data-stop="4">0</span></div>
-                                <h4 class="counter-title">AÑOS DE EXPERIENCIA</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section class="ftco-counter" id="section-counter">
+    	<div class="container">
+				<div class="row">
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 d-flex">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="6">0</strong>
+              </div>
+              <div class="text-2">
+              	<span>Años de <br>Experiencia</span>
+              </div>
             </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 d-flex">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="2121">0</strong>
+              </div>
+              <div class="text-2">
+              	<span>Trámites <br>Realizados</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 d-flex">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="298">0</strong>
+              </div>
+              <div class="text-2">
+              	<span>Expertos<br>Asesores</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 d-flex">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="100">0</strong>
+              </div>
+              <div class="text-2">
+              	<span>%Atención<br>personalizada</span>
+              </div>
+            </div>
+          </div>
         </div>
+    	</div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services-section" style="background-image: url(images/background/1.jpg);">
-        <div class="auto-container">    
-            <div class="sec-title text-center">
-                <h2>Nuestros Servicios</h2>
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+		  <div class="container-fluid px-md-0">
+        <div class="row no-gutters">
+          <div class="col-md-4 ftco-animate">
+            <div class="work img d-flex align-items-end" style="background-image: url(images/AdultosMayores.jpg);">
+            	<a href="images/AdultosMayores.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="icon-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4">
+	              <div class="text w-100 mb-3">
+	              	<!-- <span>Building</span> -->
+	              	<h2><a href="work-single.html">Trámite de Pensiones</a></h2>
+	              </div>
+              </div>
             </div>
-            <div class="services-box row clearfix">
-                <div class="services-carousel owl-carousel owl-theme">
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Retiro parcial por desempleo
-                                </a></h3>
-                                <div class="text">Gestionamos tus trámites de afore para que puedas acceder a tus ahorros en caso de desempleo de manera rápida y sin complicaciones.
-
-                                </div>
-                                <!-- <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Retiro parcial por remodelación de vivienda</a></h3>
-                                <div class="text">Te asistimos en el proceso de retiro de tu afore para invertir en la remodelación de tu hogar, haciendo el trámite sencillo y eficiente.</div>
-                                <!-- <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-town"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Retiro parcial por matrimonio</a></h3>
-                                <div class="text">Te apoyamos en los trámites necesarios para utilizar tus recursos de afore en esta nueva etapa de tu vida.</div>
-                                <!-- <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Negativa de pensión</a></h3>
-                                <div class="text">La negativa de pensión ocurre cuando una solicitud de pensión es rechazada por no cumplir con los requisitos legales o administrativos necesarios. Las razones comunes para una negativa pueden incluir insuficientes semanas de cotización, falta de documentos, o no cumplir con la edad mínima requerida</div>
-                                <!-- <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <!-- <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Conceptual Architecture</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!-- Service Block -->
-                    <!-- <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-town"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Apartment Buildings</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Modalidad 40</a></h3>
-                                <div class="text">Con la Modalidad 40, incrementa tu pensión y asegura una mejor calidad de vida al jubilarte. Descubre cómo esta opción puede ayudarte a mejorar tus semanas cotizadas y el monto de tu retiro.                                </div>
-                                <!-- <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Créditos de vivienda</a></h3>
-                                <div class="text">Obtén un crédito que se adapta a tus necesidades y comienza a construir o adquirir la vivienda que siempre quisiste. Aprovecha los beneficios diseñados para ti.</div>
-                                <!-- <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <!-- <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-town"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Apartment Buildings</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="work img d-flex align-items-end" style="background-image: url(images/Remodelacion.avif);">
+            	<a href="images/Remodelacion.avif" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="icon-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4">
+	              <div class="text w-100 mb-3">
+	              	<!-- <span>Building</span> -->
+	              	<h2><a href="work-single.html"><b>Trámite de Remodelación</b></a></h2>
+	              </div>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="work img d-flex align-items-end" style="background-image: url(images/Desempleo.jpg);">
+            	<a href="images/Desempleo.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="icon-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4">
+	              <div class="text w-100 mb-3">
+	              	<!-- <span>Building</span> -->
+	              	<h2><a href="work-single.html"><b>Retiro por desempleo</b></a></h2>
+	              </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-4 ftco-animate">
+            <div class="work img d-flex align-items-end" style="background-image: url(images/work-4.jpg);">
+            	<a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="icon-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4">
+	              <div class="text w-100 mb-3">
+	              	<span>Building</span>
+	              	<h2><a href="work-single.html">College Health Profession</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-4 ftco-animate">
+            <div class="work img d-flex align-items-end" style="background-image: url(images/work-5.jpg);">
+            	<a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="icon-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4">
+	              <div class="text w-100 mb-3">
+	              	<span>Building</span>
+	              	<h2><a href="work-single.html">College Health Profession</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-4 ftco-animate">
+            <div class="work img d-flex align-items-end" style="background-image: url(images/work-6.jpg);">
+            	<a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    					<span class="icon-expand"></span>
+	    				</a>
+            	<div class="desc w-100 px-4">
+	              <div class="text w-100 mb-3">
+	              	<span>Building</span>
+	              	<h2><a href="work-single.html">College Health Profession</a></h2>
+	              </div>
+              </div>
+            </div>
+          </div> -->
         </div>
+      </div> 
+		</section>
+
+
+    <section class="ftco-section testimony-section bg-primary">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          	<span class="subheading">Testimonios</span>
+            <h2 class="mb-4">Clientes Satisfechos</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Sus asesores me ayudaron a obtener mi crédito de Infonavit para remodelar vivienda, les agradezco. </p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/work-4.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Plutarco Jimenez</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Pude obtener mi pencion gracias a la consultoría ademas el servicio fue muy bueno.</p>
+                    <div class="d-flex align-items-center">
+						<img class="user-img" src="https://elklaketazo.wordpress.com/wp-content/uploads/2020/08/patricio-estrella.jpg" alt="User Image" style="width: 80px;">
+						<div class="pl-3">
+							<p class="name">Patricio García</p>
+							<!-- <span class="position">Marketing Manager</span> -->
+						</div>
+					</div>
+					
+                  </div>
+                </div>
+              </div>
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Es la segunda vez que hago retiro con ellos, primero hice mi retiro por desempleo y este año estamos tramitando mi crédito de infonavit.</p>
+                    <div class="d-flex align-items-center">
+						<img class="user-img" src="images/blog/comentarioNuevo.png" alt="User Image" style="width: 80px;">
+						<div class="pl-3">
+							<p class="name">Pato Villagomez</p>
+							<!-- <span class="position">Marketing Manager</span> -->
+						</div>
+					</div>
+					
+                  </div>
+                </div>
+              </div>
+
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Yo estoy solicitando mi negativa de pension solo que si es un poco tardado como todo lo que se hace en el seguro</p>
+                    <div class="d-flex align-items-center">
+						<img class="user-img" src="images/blog/PersonaComentario2.png" alt="User Image" style="width: 80px;">
+						<div class="pl-3">
+							<p class="name">Angelica Garcia</p>
+							<!-- <span class="position">Marketing Manager</span> -->
+						</div>
+					</div>
+					
+                  </div>
+                </div>
+              </div>
+
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Como el tramite es tardado preferi cancelar no tenia respuesta tan facil ademas el asesor era muy grosero</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Club_de_Futbol_Cruz_Azul.svg/1200px-Club_de_Futbol_Cruz_Azul.svg.png)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Ricardo Gutierrez</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Sus asesores son muy buenos, gracias a está consultoría pude hacer mi primer retiro parcial de mi Afore.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/4.png)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Luz García</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Me ayudaron con mi trámite logre mi trámite de retiro parcial. Gracias a ello, pude disfrutar con mi familia</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/5.png)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Maria Guadalupe</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">El servicio resultó bastante tedioso, piden mucho papeleo. Además, me tocó un impaciencia</p>
+                    <div class="d-flex align-items-center">
+						<img class="user-img" src="images/persona45.jpeg" alt="User Image" style="width: 80px;">
+                    	<div class="pl-3">
+		                    <p class="name">Maria Jose Dominguez</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Me toco un asesor que no me explico bien el tramite y el pago. Espero que mejoren el servicio</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/Laura.avif)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Laura Gonzalez</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+
+				  
+
+                </div>
+              </div>
+
+
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Solicite mi trámite de pensión, es una excelente consultoría son muy profesionales</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(https://imgmedia.larepublica.pe/640x800/larepublica/migration/images/AU7Q6S4JFRAK7LLOCSWS34XQVI.webp)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Melanie Martinez</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">El asesor no me explico bien el tramite ni los pagos. La vdd no estoy satisfecho con el servicio."</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/Cristina.png)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Ana Lopez
+							</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+			  
+
+			  
+
+			  
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">"Recibí un asesor que no explicó claramente el proceso y los pagos. Ojalá mejoren en eso."
+
+					</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/9.png)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Andrea Garcia
+							</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Los acesores no saven esplicar bn las cosas y ni sikiera atienden como se deve. La vd no estoy nada agusto."</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(https://http2.mlstatic.com/D_NQ_NP_847397-MLM76423483740_052024-O.webp)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Miguel García
+							</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Me atendieron bien, pero siento ke pudieron darme mas informacion sobre el proseso."</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3PFs_ZBBkTp6JaElBp2Pg959rU3XcfMSQzw&s)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Flor Martinez
+							</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Pude obtener mi retiro por desempleo, pero siento que podría ser más rápido se siente tedioso e interminable "</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Francisco Garcia
+							</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+			  <div class="item">
+                <div class="testimony-wrap py-4">
+                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                  <div class="text">
+                    <p class="mb-4">Me gustaria que fueran mas claros con su horario de atension ya que a veces no respondian"</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(https://media.posterlounge.com/img/products/770000/765219/765219_poster.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Flavio Benito
+							</p>
+		                    <!-- <span class="position">Marketing Manager</span> -->
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+
+
+			  
+
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!--End Services Section -->
 
-    <!--Fluid Section One Section -->
-    <section class="fluid-section-one">
-        <div class="container-fluid clearfix">
-            <!--Content Column-->
-            <div class="content-column">
-                <div class="inner-column">
-                    <div class="row clearfix">
-                        <!-- Service Block -->
-                        <div class="text-column">
-                            <div class="inner-box">
-                                <h4>Facilitando tus beneficios como derechohabiente</h4>
-                                <!-- <div class="text">UNIQUE PERSPECTIVE.</div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Image Column-->
-            <div class="image-column wow fadeInRight animated" style="background-image: url(https://img.freepik.com/foto-gratis/padres-nino-tiro-medio-cama-vista-superior_23-2148861240.jpg); visibility: visible; animation-name: fadeInRight;">
-                <figure class="image-box"><img src="https://img.freepik.com/foto-gratis/padres-nino-tiro-medio-cama-vista-superior_23-2148861240.jpg" alt=""></figure>
-                <!-- <div class="video-link"><a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="link" data-fancybox="gallery" data-caption=""> <span class="fa fa-play"></span></a></div> -->
-            </div>
+    <!-- <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+          	<span class="subheading">Our Blog</span>
+            <h2>Recent Blog</h2>
+          </div>
         </div>
-    </section>
-    <!--End Fluid Section One Section -->
-
-    <!--Project Section-->
-    
-    <!--testimonial Section -->
-    <section class="testimonial-section">
-        <div class="outer-container clearfix">
-            <div class="testmonial-outer">
-                <!--Image Column-->
-                <div class="image-column wow fadeInLeft animated" style="background-image: url(&quot;images/background/7.jpg&quot;); visibility: visible; animation-name: fadeInLeft;">
-                    <figure class="image-box"><img src="images/background/7.jpg" alt=""></figure>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text mt-3 text-center">
+              	<div class="meta mb-2">
+                  <div><a href="#">January 30, 2020</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
-
-                <!--Image Column-->
-                <div class="image-column-two wow fadeInRight animated" style="background-image: url(&quot;images/background/6.jpg&quot;); visibility: visible; animation-name: fadeInRight;">
-                    <figure class="image-box"><img src="images/background/6.jpg" alt=""></figure>
-                </div>
-        </div>
-
-                <!-- Testimonial Column -->
-                <div class="auto-container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="testimonial-column clearfix">
-                                <div class="inner-column">
-                                    <div class="sec-title text-left">
-                                        <h2>Clientes Satisfechos</h2>
-                                    </div>
-                                    <div class="testimonial-carousel owl-carousel owl-theme">
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">"Excelente servicio, me ayudaron a entender mis opciones y a realizar todos los trámites sin complicaciones. Definitivamente los recomiendo."
-
-                                                </div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7mirdobZYsLYwk8XiD-cApE_7hguF0v-qL_V41vaQfkXrcr8OgBKf4LKMsUxFSaX0IVAMo8sgQ4q-OXbSNtmBYA" alt="" style="width: 100px;"></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Juanito Banana</h5>
-                                                        <!-- <span class="designation">CEO, InDesign</span> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">El proceso tardó más de lo que esperaba y no recibí actualizaciones constantes sobre mi trámite.
-                                                </div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=157,h=198,fit=crop/Yg2lDkG0vafKPjKe/images-Yg2qEZwOw3FnR1p5.jpeg" alt="" style="width: 100px;"></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Carlos Jimenez</h5>
-                                                        <!-- <span class="designation">CEO, InDesign</span> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">Gracias a su asesoría, pude recuperar mi ahorro de afore rápidamente. El equipo es profesional y siempre estuvo al tanto de mi caso."
-                                                </div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="https://images.unsplash.com/photo-1720210470561-941744ebad00?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2VudGUlMjBtZXhpY2FuYXxlbnwwfHwwfHx8MA%3D%3D" style="width: 80px;" alt=""></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Sofía Martínez</h5>
-                                                        <!-- <span class="designation">CEO, InDesign</span> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">"No me gusto el servicio, tardaron muxho en responder y no me explikaron bien komo aser el tramite. No los rekomiendo."   
-                                                </div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=157,h=198,fit=crop/Yg2lDkG0vafKPjKe/mz-exj-YlevPE1llZH9jRa8.jpeg" alt="" style="width: 100px;"></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">
-                                                            María Fernanda</h5>
-                                                        <!-- <span class="designation">CEO, InDesign</span> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">Yo realicé mi retiro por desempleo en noviembre y no fue tan complicado como pensaba.</div>
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="https://logos-world.net/wp-content/uploads/2023/02/Cruz-Azul-Logo-2021.png" alt="" style="width: 100px;"></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Javier Martínez</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">Me ayudaron a sacar mi crédito de Infonavit y ya estoy viendo lo de mi casita. Muchas gracias.</div>
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/SuicideSquadHarleyQuinn.jpg/220px-SuicideSquadHarleyQuinn.jpg" alt="" style="height: 150px;"></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Mariana López</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">Yo los contraté para que me ayudaran con la pensión de mi abuelo, sólo que sí es muy tardado todo.</div>
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="https://www.sportspro.com/wp-content/uploads/2023/03/ferrari.png" alt="" style="width: 100px;"></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Luis Hernández</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">"Aunque fueron amables, sentí que la información inicial no fue clara y tuve que hacer muchas preguntas para entender el procedimiento."</div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="https://i.pinimg.com/originals/6a/0d/18/6a0d184b73dc7bf9b47cb755ef8d92cb.png" alt="" style="width: 100px;"></div>
-                                                    <div class="text-box"> 
-                                                        <h5 class="name">Sofia Perez
-                                                        </h5>
-                                                        <!-- <span class="designation">CEO, InDesign</span> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+              </div>
             </div>
-        
-    </section>
-    <!--End testimonial Section -->
-
-    <!-- Team Section -->
-    <
-    <!--End Team Section -->
-
-    <!-- Services Section -->
-   
-
-    <!--Skill Section -->
-   
-    <!--End testimonial Section -->
-
-    <!-- News Section -->
-    
-    <!--End News Section -->
-
-    <!--Clients Section-->
-    <!-- <section class="clients-section">
-        <div class="auto-container">
-            <div class="sponsors-outer">
-                Sponsors Carousel
-                <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure></li>
-                </ul>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text mt-3 text-center">
+              	<div class="meta mb-2">
+                  <div><a href="#">January 30, 2020</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text mt-3 text-center">
+              	<div class="meta mb-2">
+                  <div><a href="#">January 30, 2020</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section> -->
-    <!--End Clients Section-->
+		
 
-     <!-- Main Footer -->
-    <footer class="main-footer">
-        <div class="auto-container">
-            <!--Widgets Section-->
-            <div class="widgets-section">
-                <div class="row">
-                    <!--Big Column-->
-                    <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                        <div class="row">
-                            <!--Footer Column-->
-                            <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget about-widget">
-                                    <div class="footer-logo">
-                                        <figure>
-                                            <a href="index.html"><img src="images/icons/logoT.png" alt=""></a>
-                                        </figure>
-                                    </div>
-                                    <!-- <div class="widget-content">
-                                        <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet morn ings of spring which I enjoy with my whole heart of me.</div>
-                                        <div class="social-links">
-                                            <ul class="social-icon-two">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </div>
-                            
-                            <!--Footer Column-->
-                            <!-- <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                                 <div class="footer-widget links-widget">
-                                    <h2 class="widget-title">Services</h2>
-                                    <div class="widget-content">
-                                        <ul class="list">
-                                            <li><a href="#">Plans and Projects</a></li>
-                                            <li><a href="#">Conceptual Architecture</a></li>
-                                            <li><a href="#">Apartment Buildings</a></li>
-                                            <li><a href="#">Skyscrapers Buildings</a></li>
-                                            <li><a href="#">Restauration Projects</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>          -->
-                        </div>
-                    </div>
-                    
-                    <!--Big Column-->
-                    <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                        <div class="row clearfix">
-                            <!--Footer Column-->
-                            <!-- <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget gallery-widget">
-                                    <h2 class="widget-title">Recent Works</h2>
-                                    <div class="widget-content">
-                                        <div class="outer clearfix">
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-1.jpg" alt=""></a>
-                                            </figure>
+    <!-- <section class="ftco-section ftco-no-pb ftco-no-pt mb-5">
+      <div class="container">
+      	<div class="row">
+	      	<div class="col-md-12">
+	      		<div class="bg-primary w-100 rounded px-md-0 px-4">
+			        <div class="row d-flex justify-content-center">
+			        	<div class="col-lg-8 py-4">
+			        		<div class="row">
+					           <div class="col-md-6 d-flex align-items-center">
+					            <h2 class="mb-0" style="color:white; font-size: 24px;">Subcribe to our Newsletter</h2>
+					          </div> 
+					          <div class="col-md-6 d-flex align-items-center">
+					            <form action="#" class="subscribe-form">
+					              <div class="form-group d-flex">
+					                <input type="text" class="form-control" placeholder="Enter email address">
+					                <input type="submit" value="Subscribe" class="submit px-3">
+					              </div>
+					            </form>
+					          </div>
+				          </div>
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+      </div>
+    </section> -->
 
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-2.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-2.jpg" alt=""></a>
-                                            </figure>
+    <footer class="footer">
+			<div class="container-fluid px-lg-5">
+				<div class="row">
+					<div class="col-md-9 py-5">
+						<div class="row">
+							<div class="col-md-4 mb-md-0 mb-4">
+								<h2 class="footer-heading">Grupo impulso</h2>
+								
+								
+								<img src="images/icono/ImpulsoLogo.png" alt="" style="width: 150px; float: right; margin-left: 20px; margin-top: -30px; padding-bottom: 20px;">
 
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-3.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-3.jpg" alt=""></a>
-                                            </figure>
+								<p>Dirección: Valentín Gómez Farias #415, Col. Vértice, Toluca de Lerdo, Estado de México, C.P. 50090</p>
+								<!-- <ul class="ftco-footer-social p-0">
+		              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ion-logo-twitter"></span></a></li>
+		              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"></span></a></li>
+		              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ion-logo-instagram"></span></a></li>
+		            </ul> -->
+							</div>
+							<div class="col-md-8">
+								<div class="row justify-content-center">
+									<div class="col-md-12 col-lg-10">
+										<div class="row">
+											<!-- <div class="col-md-4 mb-md-0 mb-4">
+												<h2 class="footer-heading">Services</h2>
+												<ul class="list-unstyled">
+						              <li><a href="#" class="py-1 d-block">Construction</a></li>
+						              <li><a href="#" class="py-1 d-block">House Renovation</a></li>
+						              <li><a href="#" class="py-1 d-block">Painting</a></li>
+						              <li><a href="#" class="py-1 d-block">Arhictecture Design</a></li>
+						            </ul>
+											</div> -->
+											<!-- <div class="col-md-4 mb-md-0 mb-4">
+												<h2 class="footer-heading">About</h2>
+												<ul class="list-unstyled">
+						              <li><a href="#" class="py-1 d-block">Staff</a></li>
+						              <li><a href="#" class="py-1 d-block">Team</a></li>
+						              <li><a href="#" class="py-1 d-block">Careers</a></li>
+						              <li><a href="#" class="py-1 d-block">Blog</a></li>
+						            </ul>
+											</div> -->
+											<!-- <div class="col-md-4 mb-md-0 mb-4">
+												<h2 class="footer-heading">Resources</h2>
+												<ul class="list-unstyled">
+						              <li><a href="#" class="py-1 d-block">Security</a></li>
+						              <li><a href="#" class="py-1 d-block">Global</a></li>
+						              <li><a href="#" class="py-1 d-block">Charts</a></li>
+						              <li><a href="#" class="py-1 d-block">Privacy</a></li>
+						            </ul>
+											</div> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row mt-md-5">
+							<div class="col-md-12">
+								<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					  Copyright &copy; Grupo impulso. Todos los derechos reservados</i></a>
+					  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
+						<h2 class="footer-heading">Request A Quote</h2>
+						<form action="#" class="contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+              	<button type="submit" class="form-control submit px-3">Send</button>
+              </div>
+            </form>
+					</div> -->
+				</div>
+			</div>
+		</footer>
+    
+  
 
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-4.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-4.jpg" alt=""></a>
-                                            </figure>
-
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-5.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-5.jpg" alt=""></a>
-                                            </figure>
-
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-6.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-6.jpg" alt=""></a>
-                                            </figure>
-                                        </div>
-                                    </div>       
-                                </div>
-                            </div> -->
-                            <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                                 <div class="footer-widget links-widget">
-                                    <h2 class="widget-title">Contáctanos</h2>
-                                    <div class="widget-content">
-                                        <ul class="list-address">
-                                            <li><i class="fas fa-map-marker-alt"></i>C. Montes Altai # 616 C, Valle Don Camilo, 50140 Toluca de Lerdo, Méx.</li>
-                                            <li><i class="fas fa-phone-volume"></i><a href="tel:+321456789012">722 461 4839</a></li>
-                                            <li><i class="fas fa-envelope"></i><a href="mailto:">soporte@terra-consultores.com</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!--Footer Bottom-->
-        <div class="footer-bottom">
-            <div class="auto-container">
-                <div class="inner-container clearfix">
-                    <div class="footer-menu">
-                        <!-- <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Project</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul> -->
-                    </div>
-                    
-                    <div class="copyright-text">
-                        <p>Copyright © Todos los derechos reservados</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End Main Footer -->
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-</div>
-
-<!-- Color Palate / Color Switcher -->
-<div class="color-palate">
-    <div class="color-trigger">
-        <i class="fa fa-cog"></i>
-    </div>
-    <div class="color-palate-head">
-        <h6>Choose Your Color</h6>
-    </div>
-    <div class="various-color clearfix">
-        <div class="colors-list">
-            <span class="palate default-color active" data-theme-file="css/color-themes/default-theme.css"></span>
-            <span class="palate green-color" data-theme-file="css/color-themes/green-theme.css"></span>
-            <span class="palate blue-color" data-theme-file="css/color-themes/blue-theme.css"></span>
-            <span class="palate orange-color" data-theme-file="css/color-themes/orange-theme.css"></span>
-            <span class="palate purple-color" data-theme-file="css/color-themes/purple-theme.css"></span>
-            <span class="palate teal-color" data-theme-file="css/color-themes/teal-theme.css"></span>
-            <span class="palate brown-color" data-theme-file="css/color-themes/brown-theme.css"></span>
-            <span class="palate redd-color" data-theme-file="css/color-themes/redd-color.css"></span>
-        </div>
-    </div>
-    <div class="palate-foo">
-        <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
-    </div>
-    <a href="#" class="purchase-btn">Purchase now $17</a>
-</div>
-
-<!-- End Color Switcher -->
-
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
-<script src="js/jquery.js"></script> 
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/mixitup.js"></script>
-<script src="js/script.js"></script>
-<!-- Color Setting -->
-<script src="js/color-settings.js"></script>
-</body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
